@@ -1,0 +1,631 @@
+body{
+    overflow-x: hidden;
+}
+.blog-name{
+    padding-left: 30px;
+}
+.space-b{
+    padding-left: 20px;
+}
+.owner-photo{
+    width: 50%;
+    position: absolute;
+    left:50%;
+    top:0px;
+}
+.link-style{
+    color: black;
+    text-decoration: none;
+}
+.posts{
+    width: 100%;
+    position: absolute;
+    top:670px;
+}
+.title{
+    position: absolute;
+    left:50%;
+    margin-left: -141px;
+}
+.post-container{
+    top:100px;
+    position: absolute;
+}
+.video-container{
+    position: absolute;
+    top:1100px;
+    width: 100%;
+}
+  .video{
+    background-color: black;
+    height: 650px;
+    width: 100%;
+  }
+  .money-topic{
+    color: white;
+  }
+  .description{
+    color: white;
+  }
+  .money-topic{
+    text-align: center;
+    padding-top: 50px;
+  }
+  .video-position{
+    position: absolute;
+    width: 37.5%;
+    left: 50%;
+    margin-left: -18.75%;
+    top:150px;
+  }
+  .description-conatainer{
+    width: 40%;
+    position: absolute;
+    margin-left: -20%;
+    left:50%;
+    top:500px;
+    height: auto;
+  }
+.nav-1{
+    padding: 0;
+    z-index: 5;
+    width: 100%;
+}
+.frame{
+    position: absolute;
+    top:0;
+    width:100%;
+    top:40px;
+}
+.owner-info{
+    width: 800px;
+    position: absolute;
+    left:50%;
+    margin-left: -480px;
+    top:250px;
+}
+.font-size{
+    font-size: 50px;
+    padding-left: 20px;
+}
+.podcast-icons{
+    width: 200px;
+    position: absolute;
+    left: 50%;
+    margin-left: -95px;
+    top:60px;
+}
+.topic-container{
+    width: 260px;
+    position: absolute;
+    left:50%;
+    margin-left: -130px;
+}
+.latest-podcast{
+    position: absolute;
+    top:1820px;
+    width:100%;
+    left:50%;
+    margin-left: -50%;
+}
+.link-style-2{
+    color: black;
+    text-decoration: none;
+    padding-left: 50px;
+}
+.podcast-photos{
+    position: absolute;
+}
+.subscription{
+    width: 80%;
+    position: absolute;
+    left:50%;
+    margin-left: -40%;
+    height: 300px;
+    border: 1px slategrey solid;
+    border-radius: 10px;
+    -webkit-box-shadow: 0 0 10px black;
+        box-shadow: 0 0 10px black;
+        background-color: white;
+        top:2350px;
+}
+.sub-description{
+    position: absolute;
+    left:47%;
+    top:60px;
+}
+.font-size-1{
+    font-size: 170px;
+}
+.sub-photo{
+    position: absolute;
+    left:12%;
+    top:60px;
+}
+.sub-button{
+    width: 200px;
+    height: 70px;
+    background-color: black;
+    color:white;
+    text-align: center;
+    padding-top: 20px;
+    border-radius: 5px;
+    position: absolute;
+    left:59%;
+    top:170px;
+}
+.sub-background{
+    width: 100%;
+    height: 400px;
+    background-color: black;
+    position: absolute;
+    top:2300px;
+}
+.footer{
+    height: 100px;
+    background-color: #ced4da;
+    width: 100%;
+    position: absolute;
+    top:2700px;
+}
+.footer-list{
+    list-style:none;
+}
+li{
+    display: inline-block;
+    padding-left: 30px;
+}
+@media only screen and (max-width: 1380px) {
+    .subscription{
+        width: 94%;
+        margin-left: -47%;
+    }
+}
+@media only screen and (min-width: 993px) {
+.nav-size{
+    position: absolute;
+    width: 700px;
+    left:50%;
+    margin-left: -250px;
+}
+.post-container{
+    width: 800px;
+    left:50%;
+    margin-left: -475px;
+    top:100px;
+    position: absolute;
+    display: flex;
+}
+.post-1{
+    margin-left: 50px;
+}
+.post-2{
+    margin-left: 50px;
+}
+.post-3{
+    margin-left: 50px;
+}
+.frame{
+    border: gray 1px solid;
+    height: 493px;
+    width: 100%;
+}
+.podcast-photos{
+    width: 900px;
+    display: flex;
+    position: absolute;
+    left: 50%;
+    margin-left: -450px;
+    top:150px;
+}
+.social-medias{
+    padding-left: 75%;
+    padding-top: 50px;
+}
+}
+@media only screen and (max-width: 1171px) {
+    .owner-info{
+        margin-left: -40%;
+    }
+    .subscription{
+        width: 98%;
+        margin-left: -49%;
+    }
+    .sub-description{
+        left:45%;
+    }
+    .sub-photo{
+        left:10%;
+    }
+    .sub-button{
+        left: 50%;
+    }
+}
+@media only screen and (max-width: 993px) {
+    .owner-photo{
+        height: 333px;
+        position: absolute;
+    }
+    .photo-size{
+        height: 333px;
+    }
+    .owner-info-container{
+        height: 333px;
+    }
+    .posts{
+        top:420px;
+    }
+    .post-container{
+        left: 50%;
+        margin-left: -125px;
+    }
+    .title{
+        left: 50%;
+        margin-left: -120px;   
+    }
+    .video-position{
+    width: 60%;
+    left: 50%;
+    margin-left: -30%;
+    }
+    .description-conatainer{
+        width: 60%;
+        left: 50%;
+        margin-left: -30%;
+    }
+    .video-container{
+        top:1200px;
+    }
+    .owner-info{
+        top:250px;
+        width: 50%;
+        left:40%;
+        top:150px;
+        text-align: center;
+    }
+    .frame{
+        border: 0.5px grey solid;
+        height: 293px;
+    }
+    .podcast-photos{
+        left: 50%;
+        margin-left: -125px;
+        top:100px;
+    }
+    .latest-podcast{
+        top:1900px;
+    }
+    .topic-container{
+        margin-left: -120px;
+    }
+    .podcast-icons{
+        margin-left: -100px;
+    }
+    .subscription{
+        top:2830px;
+    }
+    .sub-background{
+        top:2780px;
+    }
+    .sub-description{
+        left:36%;
+    }
+    .footer{
+        top:3180px;
+    }
+    .social-medias{
+        padding-top:60px;
+        padding-left:70%;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .owner-photo{
+        width: 100%;
+        height: 333px;
+        left: 0;
+        top:233px;
+    }
+    .photo-size{
+        height: 433px;
+    }
+    .owner-info-container{
+        height: 250px;
+        width: 100%;
+}
+.owner-info{
+    margin-top:-88px;
+}
+.posts{
+    top:700px;
+}
+.post-container{
+    left: 50%;
+    margin-left: -125px;
+    top:60px;
+}
+.title{
+    left: 50%;
+    margin-left: -110px;   
+}
+.video{
+    height: 680px;
+}
+.video-container{
+    top:1450px;
+}
+.owner-info{
+    width: 280px;
+    position: absolute;
+    left: 50%;
+    margin-left: -140px;
+    top:175px;
+}
+.podcast-photos{
+    left: 50%;
+    margin-left: -125px;
+    top:100px;
+}
+.latest-podcast{
+    top:2100px;
+}
+.topic-container{
+    margin-left: -100px;
+}
+.podcast-icons{
+    margin-left: -110px;
+}
+.latest-podcast{
+    top:2150px;
+}
+.subscription{
+    top:3030px;
+}
+.sub-background{
+    top:2980px;
+}
+.sub-photo{
+    left:5%;
+}
+.footer{
+    top:3380px;
+}
+.social-medias{
+    padding-left: 64%;
+}
+}
+@media only screen and (max-width: 728px) {
+    .sub-description{
+        left:50%;
+        top:50px;
+    }
+    .sub-button{
+        top:180px;
+    }
+    .sub-photo{
+        left:14%;
+    }
+    .social-medias{
+        padding-left: 60%;
+    }
+}
+@media only screen and (min-width: 600px) {
+.footer-options{
+    width:600px;
+    position: absolute;
+    left:50%;
+    margin-left: -300px;
+    top:20px;
+}
+}
+@media only screen and (max-width: 600px) {
+    .footer-options{
+        width:100%;
+        position: absolute;
+        left:50%;
+        margin-left: -50%;
+        top:20px;
+    }
+    .owner-photo{
+        height: 433px;
+    }
+    .photo-size{
+        height: 433px;
+    }
+    .sub-photo{
+        left:8%;
+    }
+    .social-medias{
+        padding-left: 55%;
+        padding-top:70px;
+    }
+}
+@media only screen and (max-width: 557px) {
+    .subscription{
+        width: 280px;
+        left:50%;
+        margin-left: -140px;
+        height: 550px;
+    }
+    .sub-photo{
+        left: 50%;
+        margin-left: -85px;
+    }
+    .sub-description{
+        top:270px;
+        left:10%;
+    }
+    .sub-button{
+        top:450px;
+        left:15%;
+    }
+    .sub-background{
+        height: 650px;
+    }
+    .sub-description{
+        margin: 0;
+        left:0;
+        width: 280px;
+    }
+    .sub-title{
+        padding-left: 5%;
+
+    }
+    .sub-title-1{
+        padding-left: 13%;
+
+    }
+    .social-medias{
+        padding-left: 50%;
+    }
+    .footer{
+        top:3630px;
+    }
+}
+@media only screen and (max-width: 500px) {
+    .owner-photo{
+        height: 333px;
+    }
+    .photo-size{
+        height: 333px;
+    }
+    .posts{
+        top:600px;
+    }
+    .video{
+        height: 730px;
+    }
+    .video-container{
+        top:1350px;
+    }
+    .latest-podcast{
+        top:2120px;
+    }
+    .social-medias{
+        padding-left: 42%;
+    }
+}
+@media only screen and (max-width: 400px) {
+    .title{
+        left:55%;
+    }
+    .owner-photo{
+        height: 233px;
+    }
+    .photo-size{
+        height: 233px;
+    }
+    .name {
+        padding-left: 30px;
+    }
+    .skills{
+        padding-left: 20px;
+    }
+    .posts{
+        top:500px;
+    }
+    .video-container{
+        top:1230px;
+    }
+    .video-position{
+        height: 250px;
+    }
+    .description-conatainer{
+        top:420px;
+    }
+    .video{
+        height: 780px;
+    }
+    .topic-container{
+        width: 280px;
+        left: 50%;
+        margin-left: -140px;
+    }
+    .podcast-topic{
+        padding-left: 16%;
+    }
+    .latest-podcast{
+        top:2040px;
+    }
+    .sub-background{
+        top:2900px;
+    }
+    .subscription{
+        top:2950px;
+    }
+    .social-medias{
+        padding-left: 33%;
+        padding-top: 90px;
+    }
+    .footer{
+        height: 150px;
+    }
+    .footer{
+        top:3550px;
+    }
+}
+@media only screen and (max-width: 343px) {
+    .social-medias{
+        padding-left: 15%;
+        padding-top: 90px;
+    }
+    .footer-list{
+        padding-left: 0;
+    }
+}
+@media only screen and (max-width: 300px) {
+    .footer-list{
+        padding-left: 0;
+    }
+    .social-medias{
+        padding-top: 110px;
+    }
+}
+@media only screen and (min-width: 1600px) {
+.frame{
+    width: 1600px;
+    position: absolute;
+    left: 50%;
+    margin-left: -800px;
+    height: 494px;
+}
+.owner-photo{
+    width: 800px;
+}
+.owner-info{
+    width: 1600px;
+    position: absolute;
+    left:50%;
+    margin-left: -800px;
+    top:230px;
+}
+.name{
+    padding-left: 16%;
+}
+.skills{
+    padding-left: 16%;
+}
+.video-container{
+    width: 1600px;
+    left: 50%;
+    margin-left: -800px;
+}
+.podcast-icons{
+    width: 1600px;
+}
+.subscription{
+    width: 1280px;
+    left: 50%;
+    margin-left: -640px;
+}
+.sub-background{
+    width: 1600px;
+    left: 50%;
+    margin-left: -800px;
+}
+.podcast-icons{
+    width:200px;
+    left:50%;
+    margin-left: -90px;
+}
+}
